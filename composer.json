@@ -1,0 +1,25 @@
+{
+    "name": "simkuring/tokoig-api",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tokoig\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tokoig\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eka Meiman Sutisna",
+            "email": "kokakokbrut@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
